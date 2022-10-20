@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 75px;
+}
+.images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+img {
+    width: 400px;
+    height: 200px;
+}
+.bg-image {
+    background-image: url("recipes/images/chef.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    z-index: 1;
+}
+.content {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.blur {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    height: 100%;
+    width: 100%;
+}
