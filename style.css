@@ -20,6 +20,10 @@ img {
     width: 400px;
     height: 200px;
 }
+img:hover {
+    filter: blur(3px);
+}
+
 .bg-image {
     background-image: url("recipes/images/chef.jpg");
     background-size: cover;
